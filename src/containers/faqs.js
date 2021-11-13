@@ -1,5 +1,5 @@
 import React from "react";
-import { Accordion } from "../componenets";
+import { Accordion, OptForm } from "../componenets";
 import faqsData from "../fixtures/faqs.json";
 
 export function FaqsContainer() {
@@ -19,7 +19,7 @@ export function FaqsContainer() {
         ))}
       </Accordion.Frame>
 
-      {/* <OptForm>
+      <OptForm>
         <OptForm.Input placeholder="Email Address" />
         <OptForm.Button>Try it now</OptForm.Button>
         <OptForm.Break />
@@ -27,7 +27,7 @@ export function FaqsContainer() {
           Ready to watch? Enter your email to create or
           restart your membership.
         </OptForm.Text>
-      </OptForm> */}
+      </OptForm>
     </Accordion>
   );
 }
